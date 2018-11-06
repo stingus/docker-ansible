@@ -16,6 +16,6 @@ RUN apk add --no-cache python3 openssh-client \
         python3-dev \
         libffi-dev \
         openssl-dev \
-    && pip install ansible==2.4.2 \
+    && pip install ansible==2.7.1 \
     && apk del .build-deps \
     && rm -r /root/.cache
